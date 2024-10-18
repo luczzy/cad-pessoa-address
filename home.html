@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Formulário Completo</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form id="cpfForm">
+        <div class="container" id="container">
+            <h2>Dados Pessoais</h2>
+
+            <div class="row">
+                <div class="col-6">
+                    <label for="nome">Nome</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Nome" required>
+                </div>
+                <div class="col-6">
+                    <label for="dataNascimento">Data de Nascimento</label>
+                    <input type="date" class="form-control" id="dataNascimento" required>
+                </div>
+                <div class="col-7">
+                    <label for="Email">Email</label>
+                    <input type="email" class="form-control" id="Email" placeholder="Email" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <label for="Senha">Senha</label>
+                    <input type="password" class="form-control" id="Senha" placeholder="Senha" required>
+                </div>
+                <div class="col-4">
+                    <label for="Cpf">CPF</label>
+                    <input type="text" class="form-control" id="Cpf" placeholder="CPF" required>
+                </div>
+            </div>
+            <h2>Dados de Endereço</h2>
+            <div class="row">
+                <div class="col-3">
+                    <label for="CEP">CEP</label>
+                    <input type="text" class="form-control" id="CEP" required>
+                </div>
+                <div class="col-4">
+                    <label for="logradouro">Rua</label>
+                    <input type="text" class="form-control" id="logradouro" required>
+                </div>
+                <div class="col-4">
+                    <label for="Bairro">Bairro</label>
+                    <input type="text" class="form-control" id="Bairro" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <label for="Cidade">Cidade</label>
+                    <input type="text" class="form-control" id="Cidade" required>
+                </div>
+                <div class="col-4">
+                    <label for="uf">Estado</label>
+                    <input type="text" class="form-control" id="uf" required>
+                </div>
+                <div class="col-4">
+                    <label for="uf">Complemento</label>
+                    <input type="text" class="form-control" id="uf" required>
+                </div>
+                <div class="col-4">
+                    <label for="uf">Numero</label>
+                    <input type="text" class="form-control" id="uf" required>
+                </div>
+            </div>
+            <div id="btn">
+                <button type="submit" class="btn btn-primary">Entrar</button>
+            </div>
+        </div>
+    </form>
+    <script src='home.js'></script>
